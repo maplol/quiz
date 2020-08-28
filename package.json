@@ -1,0 +1,33 @@
+{
+  "name": "quest",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "fs": "0.0.1-security",
+    "handlebars-precompiler": "^2.1.0",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "method-override": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "open": "^7.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "maplol",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maplol/quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maplol/quiz/issues"
+  },
+  "homepage": "https://github.com/maplol/quiz#readme",
+  "description": ""
+}

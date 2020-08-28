@@ -1,0 +1,18 @@
+{{#each quests}}
+<div>
+    <h3>{{@key}}: {{question}}</h3>
+
+    {{#each answers}}
+
+
+    <input type="checkbox">{{this}}<br>
+    {{/each}}
+
+
+    <hr>
+</div>
+{{/each}}
+<button onclick=" checkright()">Ответить</button>
+<p>Отвечено: <output id="answered">0</output>
+    <output id="allque">из </output>
+</p>
